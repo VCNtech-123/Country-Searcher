@@ -1,0 +1,126 @@
+
+header {
+    background-image: url(../images/globe.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header_section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1rem;
+}
+
+#main_header {
+    letter-spacing: 12px;
+    font-size: 40px;
+    margin: 0px;
+}
+
+#country_number {
+    font-size: 20px;
+    margin-bottom: 2rem;
+    margin: 0px;
+}
+
+.buttons {
+    display: flex;
+    gap: 0.5rem;
+    margin-left: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+#starting_word {
+    height: 3rem;
+    padding: 1rem;
+    background-color: rgba(137, 91, 230);
+    color: white;
+    border: none;
+}
+
+#starting_word:hover {
+    background-color: rgba(88, 28, 184);
+    font-weight: bold;
+}
+
+#search_any {
+    height: 3rem;
+    padding: 1rem;
+    background-color: rgba(137, 91, 230);
+    color: white;
+    border: none;
+}
+
+#search_any:hover {
+    background-color: rgba(88, 28, 184);
+    font-weight: bold;
+}
+
+#filter {
+    height: 3rem;
+    padding: 1rem;
+    background-color: rgba(137, 91, 230);
+    color: white;
+    border: none;
+}
+
+#filter:hover {
+    background-color: rgba(88, 28, 184);
+    font-weight: bold;
+}
+
+#search_bar {
+    width: 28rem;
+    height: 2.5rem;
+    border-radius: 20px;
+    border-color: lightskyblue;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#search_bar:focus {
+    border-color: lightskyblue;
+}
+
+#search_bar::placeholder {
+    text-align: center;
+}
+
+#search_button {
+    width: 2.5rem;
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 0.5rem;
+}
+
+main {
+    background-color: rgba(255, 255, 227);  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all_countries {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px;
+    gap: 20px;
+}
+
